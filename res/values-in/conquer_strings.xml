@@ -288,4 +288,8 @@
     <!-- QS background opacity -->
     <string name="qs_panel_alpha_title">Transparansi latar belakang panel pengaturan cepat</string>
 
+    <!-- Toast app icon -->
+    <string name="toast_icon_title">Tampilkan ikon aplikasi pada toast</string>
+    <string name="toast_icon_summary">Tampilkan ikon aplikasi pada setiap toast sistem berdasarkan aplikasi</string>
+
 </resources>
