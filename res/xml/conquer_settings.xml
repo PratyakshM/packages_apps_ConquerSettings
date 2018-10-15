@@ -26,6 +26,14 @@
             android:fragment="com.conquer.settings.fragments.StatusBar" 
             android:icon="@drawable/ic_settings_statusbar"/>
 
+        <!-- Button -->
+        <Preference
+            android:key="statusbar_category"
+            android:title="@string/hw_btn_title"
+			android:summary="@string/hw_btn_summary"
+            android:fragment="com.conquer.settings.fragments.Button" 
+            android:icon="@drawable/ic_settings_buttons"/>
+			
         <!-- Lockscreen -->
         <Preference
             android:key="lockscreen_category"
