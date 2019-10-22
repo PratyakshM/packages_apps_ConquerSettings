@@ -37,22 +37,31 @@ public class Lockscreen extends SettingsPreferenceFragment {
 
     public static final String TAG = "Lockscreen";
     private static final String LOCK_CLOCK_FONTS = "lock_clock_fonts";
+    private static final String LOCK_DATE_FONTS = "lock_date_fonts";
 
     private ListPreference mLockClockFonts;
+    private ListPreference mLockDateFonts;
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
 
         addPreferencesFromResource(R.xml.conquer_settings_lockscreen);
-    }
 
-    // Lockscren Clock Fonts
-    mLockClockFonts = (ListPreference) findPreference(LOCK_CLOCK_FONTS);
-    mLockClockFonts.setValue(String.valueOf(Settings.System.getInt(
-            getContentResolver(), Settings.System.LOCK_CLOCK_FONTS, 28)));
-    mLockClockFonts.setSummary(mLockClockFonts.getEntry());
-    mLockClockFonts.setOnPreferenceChangeListener(this);
+        // Lockscren Clock Fonts
+        mLockClockFonts = (ListPreference) findPreference(LOCK_CLOCK_FONTS);
+        mLockClockFonts.setValue(String.valueOf(Settings.System.getInt(
+                getContentResolver(), Settings.System.LOCK_CLOCK_FONTS, 28)));
+        mLockClockFonts.setSummary(mLockClockFonts.getEntry());
+        mLockClockFonts.setOnPreferenceChangeListener(this);
+
+        // Lockscren Date Fonts
+        mLockDateFonts = (ListPreference) findPreference(LOCK_DATE_FONTS);
+        mLockDateFonts.setValue(String.valueOf(Settings.System.getInt(
+                getContentResolver(), Settings.System.LOCK_DATE_FONTS, 28)));
+        mLockDateFonts.setSummary(mLockDateFonts.getEntry());
+        mLockDateFonts.setOnPreferenceChangeListener(this);
+    }
 
     public boolean onPreferenceChange(Preference preference, Object newValue) {
         ContentResolver resolver = getActivity().getContentResolver();

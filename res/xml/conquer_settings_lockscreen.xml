@@ -46,6 +46,16 @@
         android:defaultValue="28"
         android:persistent="false" />
 
+    <ListPreference
+        android:key="lock_date_fonts"
+        android:title="@string/lock_date_font_title"
+        android:dialogTitle="@string/lock_date_font_dialog_title"
+        android:entries="@array/lock_clock_fonts_entries"
+        android:entryValues="@array/lock_clock_fonts_values"
+        android:summary="%s"
+        android:defaultValue="28"
+        android:persistent="false" />
+
     <com.conquer.settings.preferences.SystemSettingSwitchPreference
         android:key="double_tap_sleep_lockscreen"
         android:title="@string/double_tap_sleep_lockscreen_title"
