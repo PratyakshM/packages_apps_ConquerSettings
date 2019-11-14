@@ -31,9 +31,9 @@ import com.android.settings.SettingsPreferenceFragment;
 
 import com.conquer.settings.R;
 
-public class Notification extends SettingsPreferenceFragment {
+public class StatusBar extends SettingsPreferenceFragment {
 
-    public static final String TAG = "Notification";
+    public static final String TAG = "StatusBar";
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
