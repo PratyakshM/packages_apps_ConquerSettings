@@ -29,7 +29,7 @@ import com.android.settings.R;
 
 import com.android.settings.SettingsPreferenceFragment;
 
-public class IonIonizer extends SettingsPreferenceFragment {
+public class ControlPanel extends SettingsPreferenceFragment {
 
     @Override
     public void onCreate(Bundle icicle) {
