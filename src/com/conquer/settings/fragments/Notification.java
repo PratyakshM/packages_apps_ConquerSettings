@@ -31,15 +31,15 @@ import com.android.settings.SettingsPreferenceFragment;
 
 import com.conquer.settings.R;
 
-public class Notification extends SettingsPreferenceFragment {
+public class StatusBar extends SettingsPreferenceFragment {
 
-    public static final String TAG = "Notification";
+    public static final String TAG = "StatusBar";
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
 
-        addPreferencesFromResource(R.xml.conquer_settings_statusbar);
+        addPreferencesFromResource(R.xml.conquer_settings_notification);
     }
 
     @Override

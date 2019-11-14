@@ -26,6 +26,22 @@
             android:fragment="com.conquer.settings.fragments.StatusBar" 
             android:icon="@drawable/ic_settings_statusbar"/>
 
+        <!-- Lockscreen -->
+        <Preference
+            android:key="lockscreen_category"
+            android:title="@string/lockscreen_title" 
+			android:summary="@string/lockscreen_summary"
+            android:fragment="com.conquer.settings.fragments.Lockscreen"
+            android:icon="@drawable/ic_settings_misc"/>
+
+        <!-- Notification -->
+        <Preference
+            android:key="notification_category"
+            android:title="@string/notification_title" 
+			android:summary="@string/notification_summary"
+            android:fragment="com.conquer.settings.fragments.Notification"
+            android:icon="@drawable/ic_settings_misc"/>
+
         <!-- Misc -->
         <Preference
             android:key="misc_category"
