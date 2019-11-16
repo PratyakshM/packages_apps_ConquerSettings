@@ -16,7 +16,7 @@
  * limitations under the License.
  */
 
-package com.revengeos.settings.preference;
+package com.conquer.settings.preference;
 
 import android.content.ContentResolver;
 import android.content.Context;
@@ -40,8 +40,8 @@ import androidx.preference.PreferenceManager;
 
 import com.android.settings.R;
 
-import static com.revengeos.internal.util.hwkeys.DeviceKeysConstants.*;
-import com.revengeos.settings.preference.CustomDialogPreferenceCompat;
+import static com.conquer.internal.util.hwkeys.DeviceKeysConstants.*;
+import com.conquer.settings.preference.CustomDialogPreferenceCompat;
 
 public class ButtonBacklightBrightness extends CustomDialogPreferenceCompat<AlertDialog> implements
         SeekBar.OnSeekBarChangeListener {
