@@ -17,5 +17,13 @@
     xmlns:android="http://schemas.android.com/apk/res/android"
 	android:title="@string/misc_title"
     xmlns:settings="http://schemas.android.com/apk/res/com.android.settings">
-
+	
+        <!-- ROM Info -->
+        <Preference
+            android:key="statusbar_category"
+            android:title="@string/rom_info_title"
+			android:summary="@string/rom_info_summary"
+            android:fragment="com.conquer.settings.fragments.RomInfo" 
+            android:icon="@drawable/ic_info"/>
+			
 </PreferenceScreen>
