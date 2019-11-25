@@ -285,4 +285,7 @@
     <string name="corner_fwvals">Use framework values</string>
     <string name="corner_fwvals_summary">Useful if the device actually has rounded corners</string>
 
+    <!-- QS background opacity -->
+    <string name="qs_panel_alpha_title">Quick settings panel background opacity</string>
+
 </resources>
