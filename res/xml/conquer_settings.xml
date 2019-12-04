@@ -19,7 +19,7 @@
     android:title="@string/settings_title" >
 
         <!-- Status Bar -->
-        <com.conquer.settings.preference.CardviewPreference
+        <Preference
             android:key="statusbar_category"
             android:title="@string/statusbar_title"
 			android:summary="@string/statusbar_summary"
@@ -27,7 +27,7 @@
             android:icon="@drawable/ic_settings_statusbar"/>
 
         <!-- Lockscreen -->
-        <com.conquer.settings.preference.CardviewPreference
+        <Preference
             android:key="lockscreen_category"
             android:title="@string/lockscreen_title" 
 			android:summary="@string/lockscreen_summary"
@@ -35,7 +35,7 @@
             android:icon="@drawable/ic_settings_lockscreen"/>
 
         <!-- Notification -->
-        <com.conquer.settings.preference.CardviewPreference
+        <Preference
             android:key="notification_category"
             android:title="@string/notification_title" 
 			android:summary="@string/notification_summary"
@@ -43,7 +43,7 @@
             android:icon="@drawable/ic_settings_notification"/>
 
         <!-- Misc -->
-        <com.conquer.settings.preference.CardviewPreference
+        <Preference
             android:key="misc_category"
             android:title="@string/misc_title" 
 			android:summary="@string/misc_summary"
