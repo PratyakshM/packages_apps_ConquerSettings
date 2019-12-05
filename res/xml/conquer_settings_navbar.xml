@@ -17,5 +17,12 @@
     xmlns:android="http://schemas.android.com/apk/res/android"
 	android:title="@string/navbar_title"
     xmlns:settings="http://schemas.android.com/apk/res/com.android.settings">
-			
+
+        <!-- Navigation bar style -->
+        <Preference
+            android:key="navigation_gesture"
+            android:title="@string/navigation_style_title"
+            android:summary="@string/navigation_style_summary"
+            android:fragment="com.android.settings.gestures.SystemNavigationGestureSettings" />			
+		
 </PreferenceScreen>

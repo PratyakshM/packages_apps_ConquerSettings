@@ -106,5 +106,9 @@
     <!-- Charging animation -->
     <string name="charging_animation_title">Charging animation</string>
     <string name="charging_animation_summary">Display an animation when the device is plugged in</string>
+	
+    <!-- System navigation -->
+    <string name="navigation_style_title">Navigation bar style</string>
+    <string name="navigation_style_summary">Choose navigation bar style</string>
 
 </resources>
