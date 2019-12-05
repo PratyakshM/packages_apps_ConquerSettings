@@ -222,4 +222,10 @@
     <string name="lock_clock_font_dumbledor">Dumbledor</string>
     <string name="lock_clock_font_phantombold">PhantomBold</string>
 
+    <string name="ambient_light_settings_title">Ambient light</string>
+    <string name="pulse_ambient_light_title">Edge lighting</string>
+    <string name="ambient_light_summary">Customize your ambient display edge lighting</string>
+    <string name="pulse_ambient_light_summary">Light up the side edges of the screen on notification pulse</string>
+    <string name="pulse_ambient_light_color_title">Edge light color</string>
+
 </resources>
