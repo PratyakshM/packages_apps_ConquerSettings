@@ -26,6 +26,8 @@
     <string name="lockscreen_summary">Lockscreen customization options</string>
     <string name="notification_title">Notification</string>
     <string name="notification_summary">Notification customization options</string>
+    <string name="navbar_title">Navigation bar</string>
+    <string name="navbar_summary">Navigation bar customization options</string>
 
     <!-- General strings -->
     <string name="ok">OK</string>

@@ -34,6 +34,14 @@
             android:fragment="com.conquer.settings.fragments.Lockscreen"
             android:icon="@drawable/ic_settings_lockscreen"/>
 
+        <!-- Navigation Bar -->
+        <Preference
+            android:key="navbar_category"
+            android:title="@string/navbar_title" 
+			android:summary="@string/navbar_summary"
+            android:fragment="com.conquer.settings.fragments.Navbar"
+            android:icon="@drawable/ic_settings_navigation"/>
+
         <!-- Notification -->
         <Preference
             android:key="notification_category"
