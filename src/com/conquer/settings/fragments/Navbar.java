@@ -39,7 +39,7 @@ public class Navbar extends SettingsPreferenceFragment {
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
 
-        addPreferencesFromResource(R.xml.conquer_settings_navbar
+        addPreferencesFromResource(R.xml.conquer_settings_navbar);
 
     @Override
     public int getMetricsCategory() {
