@@ -26,6 +26,14 @@
             android:fragment="com.conquer.settings.fragments.StatusBar" 
             android:icon="@drawable/ic_settings_statusbar"/>
 
+        <!-- Looks and feels -->
+        <Preference
+            android:key="looks_category"
+            android:title="@string/looks_title"
+			android:summary="@string/looks_summary"
+            android:fragment="com.android.customization.picker.CustomizationPickerActivity" 
+            android:icon="@drawable/ic_settings_looks"/>
+            
         <!-- Lockscreen -->
         <Preference
             android:key="lockscreen_category"
