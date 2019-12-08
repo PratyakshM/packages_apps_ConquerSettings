@@ -39,6 +39,79 @@
             android:action="android.intent.action.VIEW"
             android:data="https://t.me/chachinito" />
         </Preference>
+
+        <Preference
+            android:title="@string/dev3"
+            android:summary="@string/dev3_summary"
+            android:icon="@drawable/ic_dev" >
+        <intent
+            android:action="android.intent.action.VIEW"
+            android:data="https://t.me/vishalcj" />
+        </Preference>
+		
+        <Preference
+            android:title="@string/dev4"
+            android:summary="@string/dev4_summary"
+            android:icon="@drawable/ic_dev" >
+        <intent
+            android:action="android.intent.action.VIEW"
+            android:data="https://t.me/speedhorn" />
+        </Preference>		
+</PreferenceCategory>
+
+<PreferenceCategory
+            android:key="mainatiner_category"
+            android:title="@string/mainatiner_category" >
+			
+        <Preference
+            android:title="@string/mido_dev"
+            android:summary="@string/mido_dev_summary"
+            android:icon="@drawable/ic_phone" >
+        <intent
+            android:action="android.intent.action.VIEW"
+            android:data="https://t.me/herobuxx" />
+        </Preference>
+
+        <Preference
+            android:title="@string/rosy_dev"
+            android:summary="@string/rosy_dev_summary"
+            android:icon="@drawable/ic_phone" >
+        <intent
+            android:action="android.intent.action.VIEW"
+            android:data="https://t.me/vishalcj" />
+        </Preference>
+
+        <Preference
+            android:title="@string/lavender_dev"
+            android:summary="@string/lavender_dev_summary"
+            android:icon="@drawable/ic_phone" >
+        <intent
+            android:action="android.intent.action.VIEW"
+            android:data="https://t.me/tukangcaribug" />
+        </Preference>
+
+        <Preference
+            android:title="@string/ysl_dev"
+            android:summary="@string/ysl_dev_summary"
+            android:icon="@drawable/ic_phone" >
+        <intent
+            android:action="android.intent.action.VIEW"
+            android:data="https://t.me/thinker87" />
+        </Preference>		
+</PreferenceCategory>
+
+<PreferenceCategory
+            android:key="contributors_category"
+            android:title="@string/contributors_category" >
+			
+        <Preference
+            android:title="@string/ali"
+            android:summary="@string/ali_summary"
+            android:icon="@drawable/ic_design" >
+        <intent
+            android:action="android.intent.action.VIEW"
+            android:data="https://t.me/alikun" />
+        </Preference>		
 </PreferenceCategory>
 
 <PreferenceCategory

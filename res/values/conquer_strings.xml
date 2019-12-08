@@ -93,13 +93,35 @@
     <string name="dev1_summary">Lead developer, source mainatiner. UI/UX developer, device maintainer</string>
     <string name="dev2">Chachinito (Chachi Desuasido)</string>
     <string name="dev2_summary">Co-Lead developer, source mainatiner. project manager, device maintainer</string>
-    <string name="links_category">Links</string>
+	<string name="dev3">vishalcj17 (Vishal Cj)</string>
+    <string name="dev3_summary">Project manager, device maintainer</string>
+    <string name="dev4">Speedhorn (Manish Kandpal)</string>
+    <string name="dev4_summary">Project manager, device maintainer</string>
+    
+	<!-- Links -->
+	<string name="links_category">Links</string>
     <string name="github">GitHub</string>
     <string name="github_summary">See our source code.</string>
     <string name="tg_chat">Telegram group chat</string>
     <string name="tg_chat_summary">Join our community on Telegram!</string>
     <string name="tg_channel">Telegram updates channel</string>
     <string name="tg_channel_summary">Get notified when new updates are come!</string>
+	
+	<!-- Maintainers -->
+	<string name="mainatiner_category">Device maintainer</string>
+    <string name="mido_dev">Redmi Note 4/4X</string>
+    <string name="mido_dev_summary">HeroBuxx (Alif Fathur)</string>
+    <string name="rosy_dev">Redmi 5</string>
+    <string name="rosy_dev_summary">"Vishal Cj"</string>
+    <string name="lavender_dev">Redmi Note 7/7S</string>
+    <string name="lavender_dev_summary">Zugeng Owen</string>
+    <string name="ysl_dev">Redmi Y2/S2</string>
+    <string name="ysl_dev_summary">Thinker J</string>
+	
+	<!-- Contributors -->
+	<string name="contributors_category">Contributora</string>
+    <string name="ali">Alikunzz</string>
+    <string name="ali_summary">Wallpaper designer</string>
 	
     <!-- Wakeup options -->
     <string name="wakeup_when_plugged_unplugged_title">Wake up on charge</string>
