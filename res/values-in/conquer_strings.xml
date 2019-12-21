@@ -93,7 +93,7 @@
     <string name="dev1_summary">Pengembang utama, desainer UI/UX, device maintainer</string>
     <string name="dev2">Chachinito (Chachi Desuasido)</string>
     <string name="dev2_summary">Wakil pengembang utama, device maintainer</string>
-	<string name="dev3">vishalcj17 (Vishal Cj)</string>
+    <string name="dev3">vishalcj17 (Vishal Cj)</string>
     <string name="dev3_summary">Manajer proyek, device maintainer</string>
     <string name="dev4">Speedhorn (Manish Kandpal)</string>
     <string name="dev4_summary">Manager proyek, device maintainer</string>
@@ -233,6 +233,8 @@
     <string name="ambient_light_settings_summary">Kustomisasi cahaya sisi layar ambient</string>
     <string name="pulse_ambient_light_summary">Cahaya muncul saat ada notifikasi</string>
     <string name="pulse_ambient_light_color_title">Warna cahaya sisi layar</string>
+    <string name="pulse_ambient_auto_color_title">Warna otomatis</string>
+    <string name="pulse_ambient_auto_color_summary">Sesuaikan warna cahaya sisi layar dengan warna dominasi pada wallapaper</string>
 
     <!-- Aggressive battery -->
     <string name="aggressive_battery_title">BAterai agresif</string>
