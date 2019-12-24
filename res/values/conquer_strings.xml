@@ -107,8 +107,8 @@
     <string name="tg_channel">Telegram updates channel</string>
     <string name="tg_channel_summary">Get notified when new updates are come!</string>
 	
-	<!-- Maintainers -->
-	<string name="mainatiner_category">Device maintainer</string>
+    <!-- Maintainers -->
+    <string name="mainatiner_category">Device maintainer</string>
     <string name="mido_dev">Redmi Note 4/4X</string>
     <string name="mido_dev_summary">HeroBuxx (Alif Fathur)</string>
     <string name="rosy_dev">Redmi 5</string>
@@ -117,10 +117,12 @@
     <string name="lavender_dev_summary">Zugeng Owen</string>
     <string name="ysl_dev">Redmi Y2/S2</string>
     <string name="ysl_dev_summary">Thinker J</string>
-	
-	<!-- Contributors -->
-	<string name="contributors_category">Contributora</string>
-    <string name="ali">Alikunzz</string>
+    <string name="platina_dev">Mi 8 Lite</string>
+    <string name="platina_dev_summary">alikunzZz</string>	
+
+    <!-- Contributors -->
+    <string name="contributors_category">Contributors</string>
+    <string name="ali">alikunzZz</string>
     <string name="ali_summary">Wallpaper designer</string>
 	
     <!-- Wakeup options -->

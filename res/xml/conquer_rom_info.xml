@@ -98,6 +98,14 @@
             android:action="android.intent.action.VIEW"
             android:data="https://t.me/thinker87" />
         </Preference>		
+        <Preference
+            android:title="@string/platina_dev"
+            android:summary="@string/platina_dev_summary"
+            android:icon="@drawable/ic_phone" >
+        <intent
+            android:action="android.intent.action.VIEW"
+            android:data="https://t.me/thinker87" />
+        </Preference>
 </PreferenceCategory>
 
 <PreferenceCategory
