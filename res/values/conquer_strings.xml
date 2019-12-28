@@ -20,8 +20,8 @@
     <!-- Categories -->
     <string name="misc_title">Miscellaneous</string>
     <string name="misc_summary">See another customization options</string>
-    <string name="looks_title">Looks and feels</string>
-    <string name="looks_summary">Customize yoir device interfaces</string>
+    <string name="ui_title">Looks and feels</string>
+    <string name="ui_summary">Customize yoir device interfaces</string>
     <string name="statusbar_title">Status Bar</string>
     <string name="statusbar_summary">Status bar customization options</string>
     <string name="lockscreen_title">Lockscreen</string>
