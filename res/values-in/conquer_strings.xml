@@ -271,4 +271,8 @@
     <!-- Navbar tuner -->
     <string name="navbar_tuner_title">Tombol bar navigasi</string>
 
+    <!-- QS category -->
+    <string name="enable_clear_all_button">Tombol bersihkan notifikasi</string>
+    <string name="enable_clear_all_button_summary">Gantikan tulis hapus notifikasi dengan tombol mengawang yang cantik</string>
+
 </resources>
