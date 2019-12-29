@@ -264,4 +264,7 @@
     <string name="lock_ownerinfo_font_dialog_title">Select lock owner info font</string>
     <string name="lockowner_font_size_title">Owner info font size</string>
 
+    <!-- Navbar tuner -->
+    <string name="navbar_tuner_title">Navbar buttons</string>
+
 </resources>
