@@ -35,7 +35,8 @@ import com.conquer.settings.R;
 
 import com.conquer.settings.preferences.CustomSeekBarPreference;
 
-public class Lockscreen extends SettingsPreferenceFragment {
+public class Lockscreen extends SettingsPreferenceFragment implements
+        Preference.OnPreferenceChangeListener {
 
     public static final String TAG = "Lockscreen";
 
