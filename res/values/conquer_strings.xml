@@ -102,6 +102,8 @@
 	<string name="links_category">Links</string>
     <string name="github">GitHub</string>
     <string name="github_summary">See our source code.</string>
+    <string name="website">Website</string>
+    <string name="website_summary">Our project website.</string>	
     <string name="tg_chat">Telegram group chat</string>
     <string name="tg_chat_summary">Join our community on Telegram!</string>
     <string name="tg_channel">Telegram updates channel</string>
@@ -124,6 +126,8 @@
     <string name="contributors_category">Contributors</string>
     <string name="ali">alikunzZz</string>
     <string name="ali_summary">Wallpaper designer</string>
+	<string name="salvatore">sasi2006165</string>
+    <string name="salvatore_summary">Wallpaper designer</string>
 	
     <!-- Wakeup options -->
     <string name="wakeup_when_plugged_unplugged_title">Wake up on charge</string>

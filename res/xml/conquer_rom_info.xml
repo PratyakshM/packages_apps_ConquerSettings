@@ -119,6 +119,15 @@
         <intent
             android:action="android.intent.action.VIEW"
             android:data="https://t.me/alikun" />
+        </Preference>
+
+        <Preference
+            android:title="@string/salvatore"
+            android:summary="@string/salvatore_summary"
+            android:icon="@drawable/ic_design" >
+        <intent
+            android:action="android.intent.action.VIEW"
+            android:data="https://t.me/sasi2006165" />
         </Preference>		
 </PreferenceCategory>
 
@@ -131,9 +140,17 @@
             android:summary="@string/github_summary" >
         <intent
             android:action="android.intent.action.VIEW"
-            android:data="https://t.me/herobuxx" />
+            android:data="https://github.com/conqueros" />
         </Preference>
 
+        <Preference
+            android:title="@string/website"
+            android:summary="@string/website_summary" >
+        <intent
+            android:action="android.intent.action.VIEW"
+            android:data="conqueros.tk" />
+        </Preference>
+		
         <Preference
             android:title="@string/tg_chat"
             android:summary="@string/tg_chat_summary" >
