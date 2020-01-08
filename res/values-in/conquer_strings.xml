@@ -1,0 +1,274 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2019 The ConquerOS Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <!-- App Title -->
+    <string name="settings_title">Personalisasi</string>
+
+    <!-- Categories -->
+    <string name="misc_title">Lainnya</string>
+    <string name="misc_summary">Lihat pilihan kustomisasi lainnya</string>
+    <string name="ui_title">Tampilan dan kesan</string>
+    <string name="ui_summary">Kustomisasi antarmuka perangkat</string>
+    <string name="statusbar_title">Bar Status</string>
+    <string name="statusbar_summary">Pilihan kustomisasi Bar Status</string>
+    <string name="lockscreen_title">Kunci layar</string>
+    <string name="lockscreen_summary">Pilihan kustomisasi Kunci layar</string>
+    <string name="notification_title">Notifikasi</string>
+    <string name="notification_summary">Pilihan kustomisasi Notifikasi</string>
+    <string name="navbar_title">Bar navigasi</string>
+    <string name="navbar_summary">Pilihan kustomisasi Bar navigasi</string>
+
+    <!-- General strings -->
+    <string name="ok">OK</string>
+    <string name="reset">Reset</string>
+    <string name="cancel">Batal</string>
+    <string name="save">Simpan</string>
+
+    <!-- Color Picker -->
+    <string name="dialog_color_picker">Pemilih warna</string>
+    <string name="press_color_to_apply">Tekan pada warna untuk menerapkan</string>
+    <string name="arrow_right">→</string>
+    <string name="arrow_down">↓</string>
+    <string name="hex">Hex:</string>
+    <string name="hex_hint">#ff000000</string>
+    <string name="set">Terapkan</string>
+    <string name="color_default">Bawaan</string>
+
+    <!-- Battery light -->
+    <string name="battery_light_settings">Lampu isi ulang baterai</string>
+    <string name="battery_light_enable">Hidupakn</string>
+    <string name="battery_light_allow_on_dnd_title">Izinikan lampu pengisian baterai dalam mode DND</string>
+    <string name="battery_light_low_blinking_title">Lampu berkedip sat daya lemah</string>
+    <string name="battery_light_cat">Warna lampu baterai saat pengisian</string>
+    <string name="battery_light_low_color">Baterai lemah</string>
+    <string name="battery_light_medium_color">Baterai setengah</string>
+    <string name="battery_light_full_color">Baterai hampir penuh</string>
+    <string name="battery_light_reallyfull_color">Baterai penuh(100)</string>
+
+    <!-- 4G icon -->
+    <string name="statusbar_items_category">Ikon</string>
+    <string name="show_fourg_icon_title">Ikon 4G</string>
+    <string name="show_fourg_icon_summary">Tampilakan ikon 4G sebagai LTE</string>
+
+    <!-- Statusbar Tuner -->
+    <string name="statusbar_items_title">Item bar status</string>
+
+    <!-- Volume rocker wake -->
+    <string name="volume_rocker_wake_title">Bangunkan dengan tombol volume</string>
+    <string name="volume_rocker_wake_summary">Bangunkan perangkat dengan menekan tombol volume</string>
+
+    <!-- Volume rocker music control -->
+    <string name="volume_rocker_music_controls_title">Kontrol Playback</string>
+    <string name="volume_rocker_music_controls_summary">Ganti musik yang sedang diputar saat layar mati dengan menahan tombol volume</string>
+
+    <!-- Double Tap gestures -->
+    <string name="double_tap_sleep_gesture_title">Tap bar status dua kali untuk sleep</string>
+    <string name="double_tap_sleep_gesture_summary">Tekan bar status 2 kali untuk masuk ke mode Sleep</string>
+    <string name="double_tap_sleep_lockscreen_title">Tap dua kali untuk sleep</string>
+    <string name="double_tap_sleep_lockscreen_summary">Tekan laya kunci dua kali untuk masuk mode Sleep`</string>
+	
+        <!-- Lockscreen battery info indicator  -->
+    <string name="lockscreen_battery_info_title">Info penigisian baterai di kunci layar</string>
+    <string name="lockscreen_battery_info_summary">Tampilkan informasi baterai dan pengecasan di kunvi layar</string>
+	
+    <!-- ROM Info -->
+    <string name="rom_info_title">Tentang ConquerOS</string>
+    <string name="rom_info_summary">Ketahui lebih tentang kami!</string>
+    <string name="rom_summary">ConquerOS adalah kustom ROM berbasis AOSP dengan tambahan fitur, dan antarmuka yang telah diperbaiki untuk memberi pengalaman baik saat menggunakannya.</string>
+    <string name="developers_category">Pengembang</string>
+    <string name="dev1">HeroBuxx (Alif Fathur)</string>
+    <string name="dev1_summary">Pengembang utama, desainer UI/UX, device maintainer</string>
+    <string name="dev2">Chachinito (Chachi Desuasido)</string>
+    <string name="dev2_summary">Wakil pengembang utama, device maintainer</string>
+	<string name="dev3">vishalcj17 (Vishal Cj)</string>
+    <string name="dev3_summary">Manajer proyek, device maintainer</string>
+    <string name="dev4">Speedhorn (Manish Kandpal)</string>
+    <string name="dev4_summary">Manager proyek, device maintainer</string>
+    
+	<!-- Links -->
+	<string name="links_category">Link</string>
+    <string name="github">GitHub</string>
+    <string name="github_summary">Lihat kode sumber kmai</string>
+    <string name="website">Website</string>
+    <string name="website_summary">Website proyek kami</string>	
+    <string name="tg_chat">Telegram group chat</string>
+    <string name="tg_chat_summary">BErgabunglah dengan komunitas kami di Telegram!</string>
+    <string name="tg_channel">Telegram updates channel</string>
+    <string name="tg_channel_summary">Ikuti semua pemabaruan melalui kanal Telegram kami!</string>
+	
+    <!-- Maintainers -->
+    <string name="mainatiner_category">Device maintainer</string>
+    <string name="mido_dev">Redmi Note 4/4X</string>
+    <string name="mido_dev_summary">HeroBuxx (Alif Fathur)</string>
+    <string name="rosy_dev">Redmi 5</string>
+    <string name="rosy_dev_summary">"Vishal Cj ; Manish Kandpal"</string>
+    <string name="lavender_dev">Redmi Note 7/7S</string>
+    <string name="lavender_dev_summary">Zugeng Owen</string>
+    <string name="ysl_dev">Redmi Y2/S2</string>
+    <string name="ysl_dev_summary">Thinker J</string>
+    <string name="platina_dev">Mi 8 Lite</string>
+    <string name="platina_dev_summary">alikunzZz</string>	
+
+    <!-- Contributors -->
+    <string name="contributors_category">Kontributor</string>
+    <string name="ali">alikunzZz</string>
+    <string name="ali_summary">Wallpaper designer</string>
+	<string name="salvatore">sasi2006165</string>
+    <string name="salvatore_summary">Wallpaper designer</string>
+	
+    <!-- Wakeup options -->
+    <string name="wakeup_when_plugged_unplugged_title">BAngun saat pengisian daya</string>
+    <string name="wakeup_when_plugged_unplugged_summary">Bangun saat perangkat terhubung atau teputus dengan pengisi daya</string>
+
+    <!-- Charging animation -->
+    <string name="charging_animation_title">Animasi pengisian daya</string>
+    <string name="charging_animation_summary">Tampilkan animasi saat terhubung dengan pengisi daya</string>
+	
+    <!-- System navigation -->
+    <string name="navigation_style_title">Gaya bar navigasi</string>
+    <string name="navigation_style_summary">Ubah gaya bar navigasi sistem</string>
+
+    <!-- Show statusbar on lockscreen -->
+    <string name="lockscreen_show_status_bar_title">Bar status di kunci layar</string>
+    <string name="lockscreen_show_status_bar_summary">Tampilkan bar status di kunci layar</string>
+
+    <!-- Notifications while screen on -->
+    <string name="notification_sound_vib_screen_on_title">Notifikasi yang khusus saat layar hidup</string>
+    <string name="notification_sound_vib_screen_on_summary">Putar suaraa notifikasi dan getaran saat layar hidup</string>
+
+    <!-- Lock screen visualizer -->
+    <string name="lockscreen_visualizer_enable">Visualisasi musik</string>
+    <string name="lockscreen_visualizer_enable_summary">Tampilkan visualisasi bar di layar kunci</string>
+
+    <!-- Statusbar Clock -->
+    <string name="clock_style_category_title">Pengaturan jam</string>
+    <string name="clock_style_category_summary">Kustomiasi jam</string>
+    <string name="status_bar_clock_title">Pengaturan jam</string>
+    <string name="status_bar_clock_show">Tampilkanjam dan tanggal</string>
+    <string name="status_bar_clock_style_title">Gaya jam</string>
+    <string name="status_bar_clock_style_right">Kanan</string>
+    <string name="status_bar_clock_style_center">Tengah</string>
+    <string name="status_bar_clock_style_left">Kiri</string>
+    <string name="status_bar_am_pm_title">Gaya AM/PM</string>
+    <string name="status_bar_am_pm_info">Gaya 24Jam ditampilkan</string>
+    <string name="status_bar_am_pm_normal">Normal</string>
+    <string name="status_bar_am_pm_small">Kecil</string>
+    <string name="status_bar_am_pm_hidden">Sembunyikan (default)</string>
+    <string name="clock_seconds_display">Tampilkan detik</string>
+    <string name="clock_date_display">Tanggal</string>
+    <string name="clock_date_display_summary">Tampilkan tanggal sebelum jam</string>
+    <string name="clock_date_display_none">Jangan tampilkan</string>
+    <string name="clock_date_display_small">Kecil</string>
+    <string name="clock_date_display_normal">Normal</string>
+    <string name="clock_date_style">Gaya tanggal</string>
+    <string name="clock_date_style_normal">Normal</string>
+    <string name="clock_date_style_lowercase">Lowercase</string>
+    <string name="clock_date_style_uppercase">Uppercase</string>
+    <string name="clock_date_format_custom">Format kustom java</string>
+    <string name="clock_date_format">Format tanggal</string>
+    <string name="clock_date_string_edittext_title">Format harus seperti MM/dd/yy</string>
+    <string name="clock_date_string_edittext_summary">Masukan string</string>
+
+    <!-- Statusbar Clock Font Style, Size & Color -->
+    <string name="status_bar_clock_font_style_title">Gaya font jam</string>
+    <string name="status_bar_clock_font_size_title">Ukuran font jam</string>
+    <string name="status_bar_clock_color_title">Warna font jam</string>
+
+    <!-- Lock Clock Fonts -->
+    <string name="lock_clock_font_title">Opsi font jam</string>
+    <string name="lock_clock_font_summary">Ubah font wiget jam kunci layar</string>
+    <string name="lock_clock_font_dialog_title">Pilih font jam kunci layar</string>
+    <string name="lock_clock_font_stock">Normal (default)</string>
+    <string name="lock_clock_font_bold">Bold</string>
+    <string name="lock_clock_font_italic">Italic</string>
+    <string name="lock_clock_font_bold_italic">Bold Italic</string>
+    <string name="lock_clock_font_light_italic">Light Italic</string>
+    <string name="lock_clock_font_thin_italic">Thin Italic</string>
+    <string name="lock_clock_font_light">Light</string>
+    <string name="lock_clock_font_thin">Thin</string>
+    <string name="lock_clock_font_condensed_normal">Condensed</string>
+    <string name="lock_clock_font_condensed_italic">Condensed Italic</string>
+    <string name="lock_clock_font_condensed_bold">Condensed Bold</string>
+    <string name="lock_clock_font_condensed_bold_italic">Condensed Bold Italic</string>
+    <string name="lock_clock_font_condensed_light">Condensed Light</string>
+    <string name="lock_clock_font_condensed_light_italic">Condensed Light Italic</string>
+    <string name="lock_clock_font_medium_normal">Medium</string>
+    <string name="lock_clock_font_medium_italic">Medium Italic</string>
+    <string name="lock_clock_font_black">Black</string>
+    <string name="lock_clock_font_black_italic">Black Italic</string>
+    <string name="lock_clock_font_dancingscript">DancingScript</string>
+    <string name="lock_clock_font_dancingscript_bold">DancingScript Bold</string>
+    <string name="lock_clock_font_comingsoon">ComingSoon</string>
+    <string name="lock_clock_font_notoserif">NotoSerif Normal</string>
+    <string name="lock_clock_font_notoserif_italic">NotoSerif Italic</string>
+    <string name="lock_clock_font_notoserif_bold">NotoSerif Bold</string>
+    <string name="lock_clock_font_notoserif_bold_italic">NotoSerif Bold Italic</string>
+    <string name="lock_clock_font_gobold">GoBold Light</string>
+    <string name="lock_clock_font_roadrage">Road Rage</string>
+    <string name="lock_clock_font_snowstorm">Snowstorm</string>
+    <string name="lock_clock_font_googlesans">Google Sans</string>
+    <string name="lock_clock_font_neoneon">Neoneon</string>
+    <string name="lock_clock_font_themeable">Themeable (or VCR OSD Mono)</string>
+    <string name="lock_clock_font_samsung">Shamshung</string>
+    <string name="lock_clock_font_mexcellent">Mexcellent</string>
+    <string name="lock_clock_font_burnstown">Burnstown</string>
+    <string name="lock_clock_font_dumbledor">Dumbledor</string>
+    <string name="lock_clock_font_phantombold">PhantomBold</string>
+
+    <string name="ambient_light_settings_title">Cahaya Ambient</string>
+    <string name="pulse_ambient_light_title">Cahaya sisi layar</string>
+    <string name="ambient_light_settings_summary">Kustomisasi cahaya sisi layar ambient</string>
+    <string name="pulse_ambient_light_summary">Cahaya muncul saat ada notifikasi</string>
+    <string name="pulse_ambient_light_color_title">Warna cahaya sisi layar</string>
+
+    <!-- Aggressive battery -->
+    <string name="aggressive_battery_title">BAterai agresif</string>
+    <string name="aggressive_idle_title">Aggressive Idle</string>
+    <string name="aggressive_idle_summary">Enter device idle more frequently and wake up less</string>
+    <string name="aggressive_standby_title">Aggressive Standby</string>
+    <string name="aggressive_standby_summary">Restrict apps from running in the background</string>
+    <string name="aggressive_battery_saver_title">Auto-enable on battery saver</string>
+    <string name="aggressive_battery_saver_summary">Enable Aggressive Battery automatically when using battery saver</string>
+
+    <!-- Quick Settings brightness slider -->
+    <string name="qs_show_brightness_title">Slider kecerahan layar</string>
+    <string name="qs_show_brightness_summary">Tampilkan slider keceahan pada pintasan cepat pengaturan</string>
+    <string name="qs_brightness_position_bottom_title">Slider kecerahan dibawah</string>
+    <string name="qs_brightness_position_bottom_summary">Ubah posisi slider kecerahan</string>
+
+    <!-- Three-fingers-swipe to screenshot -->
+    <string name="three_finger_gesture">Usap 3 jari untuk menangkap layar</string>
+    <string name="three_finger_gesture_summary">Usap layar dengan 3 jari untuk menangkap layar</string>
+
+    <!-- Lock Date Fonts -->
+    <string name="lock_date_font_title">Opsi font tanggal</string>
+    <string name="lock_date_font_summary">Ubah font pada tanggal</string>
+    <string name="lock_date_font_dialog_title">Pilih font tanggal</string>
+
+    <!-- Lock Clock & Date Size -->
+    <string name="lockdate_font_size_title">Ukuran font tanggal</string>
+    <string name="lockclock_font_size_title">Ukuran font jam</string>
+
+    <!-- LS OwnerInfo Font & Size -->
+    <string name="lock_ownerinfo_font_title">Opsi info pemilik</string>
+    <string name="lock_ownerinfo_font_summary">Ubah font info pemilik</string>
+    <string name="lock_ownerinfo_font_dialog_title">Pilih font info pemilik</string>
+    <string name="lockowner_font_size_title">Ukuran font info pemilik</string>
+
+    <!-- Navbar tuner -->
+    <string name="navbar_tuner_title">Tombol bar navigasi</string>
+
+</resources>
