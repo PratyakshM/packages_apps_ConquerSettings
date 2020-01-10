@@ -277,16 +277,6 @@
     <string name="enable_clear_all_button">Tombol bersihkan notifikasi</string>
     <string name="enable_clear_all_button_summary">Gantikan tulis hapus notifikasi dengan tombol mengawang yang cantik</string>
 
-    <!-- Rounded corners -->
-    <string name="corners_category_title">Sudut membulat</string>
-    <string name="corners_category_summary">Atur seberapa bulat sudut layar dan posisi ikon pad bar status</string>
-    <string name="corners_title">Sesuaikan bulat pada sudut layar</string>
-    <string name="corner_radius">Radius bulatan pada sudut layar</string>
-    <string name="content_padding">Posisi konton di sudut layar</string>
-    <string name="status_bar_padding">Posisi ekstra</string>
-    <string name="corner_fwvals">Gunakan nilai bawaan perangkat</string>
-    <string name="corner_fwvals_summary">Akan lebih baik jika menggunakan pengaturan radius lingkaran dari pabrik</string>
-
     <!-- QS background opacity -->
     <string name="qs_panel_alpha_title">Transparansi latar belakang panel pengaturan cepat</string>
 

@@ -36,10 +36,4 @@
         android:summary="@string/clock_style_category_summary"
         android:fragment="com.conquer.settings.fragments.ClockSettings" />
 
-    <Preference
-        android:key="rounded_corners"
-        android:title="@string/corners_category_title"
-        android:summary="@string/corners_category_summary"
-        android:fragment="com.conquer.settings.fragments.RoundedCornersSettings" />
-
 </PreferenceScreen>
