@@ -15,34 +15,95 @@
  */
 package com.conquer.settings.fragments;
 
-import android.app.Activity;
-import android.content.Context;
-import android.content.Intent;
+import com.android.internal.logging.nano.MetricsProto;
+
 import android.os.Bundle;
+import android.content.Intent;
+import android.content.pm.PackageManager;
+import android.content.pm.ResolveInfo;
+import android.os.UserHandle;
+import android.content.ContentResolver;
+import android.content.res.Resources;
 import androidx.preference.ListPreference;
 import androidx.preference.Preference;
+import androidx.preference.PreferenceGroup;
 import androidx.preference.PreferenceScreen;
+import androidx.preference.PreferenceCategory;
 import androidx.preference.Preference.OnPreferenceChangeListener;
+import androidx.preference.PreferenceFragment;
 import androidx.preference.SwitchPreference;
 import android.provider.Settings;
+import com.android.settings.R;
 
-import com.android.internal.logging.nano.MetricsProto; 
+import java.util.Locale;
+import android.text.TextUtils;
+import android.view.View;
+
 import com.android.settings.SettingsPreferenceFragment;
-
+import com.conquer.settings.preferences.CustomSeekBarPreference;
 import com.conquer.settings.preferences.SystemSettingSwitchPreference;
+import com.android.settings.Utils;
+import android.util.Log;
 
-import com.conquer.settings.R;
+import java.util.List;
+import java.util.ArrayList;
+import java.util.Map;
+import java.util.HashMap;
+import java.util.Collections;
 
-public class StatusBar extends SettingsPreferenceFragment {
+
+public class StatusBar extends SettingsPreferenceFragment
+        implements Preference.OnPreferenceChangeListener {
 
     public static final String TAG = "StatusBar";
+    private CustomSeekBarPreference mThreshold;
+    private SystemSettingSwitchPreference mNetMonitor;
+
+    private ContentResolver mResolver;
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-
         addPreferencesFromResource(R.xml.conquer_settings_statusbar);
+
+        PreferenceScreen prefSet = getPreferenceScreen();
+        final ContentResolver resolver = getActivity().getContentResolver();
+
+        boolean isNetMonitorEnabled = Settings.System.getIntForUser(resolver,
+                Settings.System.NETWORK_TRAFFIC_STATE, 1, UserHandle.USER_CURRENT) == 1;
+        mNetMonitor = (SystemSettingSwitchPreference) findPreference("network_traffic_state");
+        mNetMonitor.setChecked(isNetMonitorEnabled);
+        mNetMonitor.setOnPreferenceChangeListener(this);
+
+        int value = Settings.System.getIntForUser(resolver,
+                Settings.System.NETWORK_TRAFFIC_AUTOHIDE_THRESHOLD, 1, UserHandle.USER_CURRENT);
+        mThreshold = (CustomSeekBarPreference) findPreference("network_traffic_autohide_threshold");
+        mThreshold.setValue(value);
+        mThreshold.setOnPreferenceChangeListener(this);
+        mThreshold.setEnabled(isNetMonitorEnabled);
     }
+
+    @Override
+    public boolean onPreferenceChange(Preference preference, Object newValue) {
+        if (preference == mNetMonitor) {
+            boolean value = (Boolean) newValue;
+            Settings.System.putIntForUser(getActivity().getContentResolver(),
+                    Settings.System.NETWORK_TRAFFIC_STATE, value ? 1 : 0,
+                    UserHandle.USER_CURRENT);
+            mNetMonitor.setChecked(value);
+            mThreshold.setEnabled(value);
+            return true;
+        }
+        if (preference == mThreshold) {
+            int val = (Integer) newValue;
+            Settings.System.putIntForUser(getContentResolver(),
+                    Settings.System.NETWORK_TRAFFIC_AUTOHIDE_THRESHOLD, val,
+                    UserHandle.USER_CURRENT);
+            return true;
+        }
+        return false;
+    }
+
 
     @Override
     public int getMetricsCategory() {

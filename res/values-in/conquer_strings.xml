@@ -201,4 +201,19 @@
     <string name="statusbar_items_title">Ikon Bar status</string>
     <string name="statusbar_items_summary">Pengatiran ikon yang akan di tampilkan di Bar status</string>
 
+    <!-- Network traffic -->
+
+    <string name="network_traffic_indicator_category">Kecepatan jaringan</string>
+    <string name="traffic_title">Indikator lalu lintas</string>
+    <string name="traffic_title_summary">Ubah indikator lalu lintas</string>
+    <string name="network_traffic_title">Lalu lintas jaringan</string>
+    <string name="network_traffic_type">Pilih tipe akitvitas jaringan</string>
+    <string name="show_network_traffic_up">Upload</string>
+    <string name="show_network_traffic_down">Download</string>
+    <string name="show_network_traffic_all">Upload dan Download</string>
+    <string name="network_traffic_state_title">Tampilkan aktivitas di Bar Status</string>
+    <string name="network_traffic_autohide_threshold_title">Batas aktivitas otomatis disembunyikan (KB/s)</string>
+    <string name="network_traffic_hidearrow">Sembunyiokan panah</string>
+    <string name="network_traffic_hidearrow_summary">Sembunyikan panah pada indikator</string>
+
 </resources>

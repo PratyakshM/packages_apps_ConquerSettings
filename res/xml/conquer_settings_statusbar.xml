@@ -36,4 +36,28 @@
         android:summary="@string/clock_style_category_summary"
         android:fragment="com.conquer.settings.fragments.ClockSettings" />
 
+    <PreferenceCategory
+        android:key="sbtraffic_metter"
+        android:title="@string/network_traffic_indicator_category">
+
+        <com.conquer.settings.preferences.SystemSettingSwitchPreference
+            android:key="network_traffic_state"
+            android:title="@string/network_traffic_state_title"
+            android:defaultValue="false" />
+
+        <com.conquer.settings.preferences.CustomSeekBarPreference
+            android:key="network_traffic_autohide_threshold"
+            android:title="@string/network_traffic_autohide_threshold_title"
+            android:max="10"
+            settings:min="0"
+            settings:units="" />
+
+        <com.conquer.settings.preferences.SystemSettingSwitchPreference
+            android:key="network_traffic_hidearrow"
+            android:title="@string/network_traffic_hidearrow"
+            android:summary="@string/network_traffic_hidearrow_summary"
+            android:dependency="network_traffic_state"
+            android:defaultValue="false" />
+
+    </PreferenceCategory>
 </PreferenceScreen>
