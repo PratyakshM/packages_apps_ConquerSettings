@@ -18,11 +18,6 @@
     android:title="@string/notification_title"
     xmlns:settings="http://schemas.android.com/apk/res/com.android.settings">
 
-    <Preference
-        android:key="charging_light"
-        android:fragment="com.conquer.settings.fragments.BatteryLightSettings"
-        android:title="@string/battery_light_settings" />
-
     <com.conquer.settings.preferences.SystemSettingSwitchPreference
         android:key="notification_sound_vib_screen_on"
         android:title="@string/notification_sound_vib_screen_on_title"
@@ -34,12 +29,6 @@
         android:fragment="com.conquer.settings.fragments.AmbientLightSettings"
         android:title="@string/ambient_light_settings_title"
         android:summary="@string/ambient_light_settings_summary" />
-
-    <com.conquer.settings.preferences.SystemSettingSwitchPreference
-        android:key="toast_icon"
-        android:title="@string/toast_icon_title"
-        android:summary="@string/toast_icon_summary"
-        android:defaultValue="false" />
 
     <com.conquer.settings.preferences.SystemSettingSwitchPreference
         android:key="dismiss_all_button"

@@ -37,29 +37,11 @@
             android:icon="@drawable/ic_dev" >
         <intent
             android:action="android.intent.action.VIEW"
-            android:data="https://t.me/chachinito" />
-        </Preference>
-
-        <Preference
-            android:title="@string/dev3"
-            android:summary="@string/dev3_summary"
-            android:icon="@drawable/ic_dev" >
-        <intent
-            android:action="android.intent.action.VIEW"
-            android:data="https://t.me/vishalcj" />
-        </Preference>
-		
-        <Preference
-            android:title="@string/dev4"
-            android:summary="@string/dev4_summary"
-            android:icon="@drawable/ic_dev" >
-        <intent
-            android:action="android.intent.action.VIEW"
-            android:data="https://t.me/speedhorn" />
+            android:data="https://t.me/pulkit077" />
         </Preference>		
 </PreferenceCategory>
 
-<PreferenceCategory
+<!--<PreferenceCategory
             android:key="mainatiner_category"
             android:title="@string/mainatiner_category" >
 			
@@ -129,7 +111,7 @@
             android:action="android.intent.action.VIEW"
             android:data="https://t.me/sasi2006165" />
         </Preference>		
-</PreferenceCategory>
+</PreferenceCategory> -->
 
 <PreferenceCategory
             android:key="links_category"
@@ -164,7 +146,7 @@
             android:summary="@string/tg_channel_summary" >
         <intent
             android:action="android.intent.action.VIEW"
-            android:data="https://t.me/ConquerOSNews" />
+            android:data="https://t.me/ConquerOSUpdates" />
         </Preference>		
 </PreferenceCategory>		
 </PreferenceScreen>

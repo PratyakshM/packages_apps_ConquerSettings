@@ -21,7 +21,7 @@
     <string name="misc_title">Miscellaneous</string>
     <string name="misc_summary">See another customization options</string>
     <string name="ui_title">Looks and feels</string>
-    <string name="ui_summary">Customize yoir device interfaces</string>
+    <string name="ui_summary">Customize your device interfaces</string>
     <string name="statusbar_title">Status Bar</string>
     <string name="statusbar_summary">Status bar customization options</string>
     <string name="lockscreen_title">Lockscreen</string>
@@ -47,24 +47,10 @@
     <string name="set">Set</string>
     <string name="color_default">Default</string>
 
-    <!-- Battery light -->
-    <string name="battery_light_settings">Battery charging light</string>
-    <string name="battery_light_enable">Enable</string>
-    <string name="battery_light_allow_on_dnd_title">Battery light in Do Not Disturb mode</string>
-    <string name="battery_light_low_blinking_title">Blinking light on low battery</string>
-    <string name="battery_light_cat">Battery light color when charging</string>
-    <string name="battery_light_low_color">Low battery</string>
-    <string name="battery_light_medium_color">Medium battery</string>
-    <string name="battery_light_full_color">Almost full battery</string>
-    <string name="battery_light_reallyfull_color">Full (100) battery</string>
-
     <!-- 4G icon -->
     <string name="statusbar_items_category">Icons</string>
     <string name="show_fourg_icon_title">4G icon</string>
     <string name="show_fourg_icon_summary">Display 4G icon in signal icon instead LTE</string>
-
-    <!-- Statusbar Tuner -->
-    <string name="statusbar_items_title">Statusbar items</string>
 
     <!-- Volume rocker wake -->
     <string name="volume_rocker_wake_title">Volume rocker wake</string>
@@ -80,23 +66,15 @@
     <string name="double_tap_sleep_lockscreen_title">Double tap to sleep</string>
     <string name="double_tap_sleep_lockscreen_summary">Double tap anywhere on the lockscreen to put phone to sleep</string>
 	
-        <!-- Lockscreen battery info indicator  -->
-    <string name="lockscreen_battery_info_title">Lockscreen charging info</string>
-    <string name="lockscreen_battery_info_summary">Display negociated charger max current and voltage and battery temperature on lockscreen while charging</string>
-	
     <!-- ROM Info -->
     <string name="rom_info_title">About ConquerOS</string>
     <string name="rom_info_summary">Know more about us!</string>
-    <string name="rom_summary">ConquerOS is an AOSP based custom ROM with additional features, and redefined UI to give best experience when using it.</string>
+    <string name="rom_summary">ConquerOS is a simple CAF based custom ROM with optimized system and extra features included.</string>
     <string name="developers_category">Developers</string>
     <string name="dev1">HeroBuxx (Alif Fathur)</string>
     <string name="dev1_summary">Lead developer, source mainatiner. UI/UX developer, device maintainer</string>
-    <string name="dev2">Chachinito (Chachi Desuasido)</string>
-    <string name="dev2_summary">Co-Lead developer, source mainatiner. project manager, device maintainer</string>
-	<string name="dev3">vishalcj17 (Vishal Cj)</string>
-    <string name="dev3_summary">Project manager, device maintainer</string>
-    <string name="dev4">Speedhorn (Manish Kandpal)</string>
-    <string name="dev4_summary">Project manager, device maintainer</string>
+    <string name="dev2">Pulkit Agarwal (pulkit077)</string>
+    <string name="dev2_summary">Lead developer, source mainatiner. project manager, device maintainer</string>
     
 	<!-- Links -->
 	<string name="links_category">Links</string>
@@ -108,26 +86,6 @@
     <string name="tg_chat_summary">Join our community on Telegram!</string>
     <string name="tg_channel">Telegram updates channel</string>
     <string name="tg_channel_summary">Get notified when new updates are come!</string>
-	
-    <!-- Maintainers -->
-    <string name="mainatiner_category">Device maintainer</string>
-    <string name="mido_dev">Redmi Note 4/4X</string>
-    <string name="mido_dev_summary">HeroBuxx (Alif Fathur)</string>
-    <string name="rosy_dev">Redmi 5</string>
-    <string name="rosy_dev_summary">"Vishal Cj ; Manish Kandpal"</string>
-    <string name="lavender_dev">Redmi Note 7/7S</string>
-    <string name="lavender_dev_summary">Zugeng Owen</string>
-    <string name="ysl_dev">Redmi Y2/S2</string>
-    <string name="ysl_dev_summary">Thinker J</string>
-    <string name="platina_dev">Mi 8 Lite</string>
-    <string name="platina_dev_summary">alikunzZz</string>	
-
-    <!-- Contributors -->
-    <string name="contributors_category">Contributors</string>
-    <string name="ali">alikunzZz</string>
-    <string name="ali_summary">Wallpaper designer</string>
-	<string name="salvatore">sasi2006165</string>
-    <string name="salvatore_summary">Wallpaper designer</string>
 	
     <!-- Wakeup options -->
     <string name="wakeup_when_plugged_unplugged_title">Wake up on charge</string>
@@ -148,10 +106,6 @@
     <!-- Notifications while screen on -->
     <string name="notification_sound_vib_screen_on_title">Noisy notifications if screen on</string>
     <string name="notification_sound_vib_screen_on_summary">Play sound and vibration for notifications when screen is on</string>
-
-    <!-- Lock screen visualizer -->
-    <string name="lockscreen_visualizer_enable">Music Visualizer</string>
-    <string name="lockscreen_visualizer_enable_summary">Show visualizer bars while playing music</string>
 
     <!-- Statusbar Clock -->
     <string name="clock_style_category_title">Clock Settings</string>
@@ -187,47 +141,6 @@
     <string name="status_bar_clock_font_size_title">Clock font size</string>
     <string name="status_bar_clock_color_title">Clock font color</string>
 
-    <!-- Lock Clock Fonts -->
-    <string name="lock_clock_font_title">Clock font options</string>
-    <string name="lock_clock_font_summary">Change the default font of the lockscreen clock widget</string>
-    <string name="lock_clock_font_dialog_title">Select lock clock font</string>
-    <string name="lock_clock_font_stock">Normal (default)</string>
-    <string name="lock_clock_font_bold">Bold</string>
-    <string name="lock_clock_font_italic">Italic</string>
-    <string name="lock_clock_font_bold_italic">Bold Italic</string>
-    <string name="lock_clock_font_light_italic">Light Italic</string>
-    <string name="lock_clock_font_thin_italic">Thin Italic</string>
-    <string name="lock_clock_font_light">Light</string>
-    <string name="lock_clock_font_thin">Thin</string>
-    <string name="lock_clock_font_condensed_normal">Condensed</string>
-    <string name="lock_clock_font_condensed_italic">Condensed Italic</string>
-    <string name="lock_clock_font_condensed_bold">Condensed Bold</string>
-    <string name="lock_clock_font_condensed_bold_italic">Condensed Bold Italic</string>
-    <string name="lock_clock_font_condensed_light">Condensed Light</string>
-    <string name="lock_clock_font_condensed_light_italic">Condensed Light Italic</string>
-    <string name="lock_clock_font_medium_normal">Medium</string>
-    <string name="lock_clock_font_medium_italic">Medium Italic</string>
-    <string name="lock_clock_font_black">Black</string>
-    <string name="lock_clock_font_black_italic">Black Italic</string>
-    <string name="lock_clock_font_dancingscript">DancingScript</string>
-    <string name="lock_clock_font_dancingscript_bold">DancingScript Bold</string>
-    <string name="lock_clock_font_comingsoon">ComingSoon</string>
-    <string name="lock_clock_font_notoserif">NotoSerif Normal</string>
-    <string name="lock_clock_font_notoserif_italic">NotoSerif Italic</string>
-    <string name="lock_clock_font_notoserif_bold">NotoSerif Bold</string>
-    <string name="lock_clock_font_notoserif_bold_italic">NotoSerif Bold Italic</string>
-    <string name="lock_clock_font_gobold">GoBold Light</string>
-    <string name="lock_clock_font_roadrage">Road Rage</string>
-    <string name="lock_clock_font_snowstorm">Snowstorm</string>
-    <string name="lock_clock_font_googlesans">Google Sans</string>
-    <string name="lock_clock_font_neoneon">Neoneon</string>
-    <string name="lock_clock_font_themeable">Themeable (or VCR OSD Mono)</string>
-    <string name="lock_clock_font_samsung">Shamshung</string>
-    <string name="lock_clock_font_mexcellent">Mexcellent</string>
-    <string name="lock_clock_font_burnstown">Burnstown</string>
-    <string name="lock_clock_font_dumbledor">Dumbledor</string>
-    <string name="lock_clock_font_phantombold">PhantomBold</string>
-
     <string name="ambient_light_settings_title">Ambient light</string>
     <string name="pulse_ambient_light_title">Edge lighting</string>
     <string name="ambient_light_settings_summary">Customize your ambient display edge lighting</string>
@@ -255,21 +168,6 @@
     <string name="three_finger_gesture">Swipe to screenshot</string>
     <string name="three_finger_gesture_summary">Swipe down with three fingers to take a screenshot</string>
 
-    <!-- Lock Date Fonts -->
-    <string name="lock_date_font_title">Date font options</string>
-    <string name="lock_date_font_summary">Change the default font of the lockscreen date widget</string>
-    <string name="lock_date_font_dialog_title">Select lock date font</string>
-
-    <!-- Lock Clock & Date Size -->
-    <string name="lockdate_font_size_title">Date font size</string>
-    <string name="lockclock_font_size_title">Clock font size</string>
-
-    <!-- LS OwnerInfo Font & Size -->
-    <string name="lock_ownerinfo_font_title">Owner Info font options</string>
-    <string name="lock_ownerinfo_font_summary">Change the default font of the lockscreen owner info</string>
-    <string name="lock_ownerinfo_font_dialog_title">Select lock owner info font</string>
-    <string name="lockowner_font_size_title">Owner info font size</string>
-
     <!-- Navbar tuner -->
     <string name="navbar_tuner_title">Navbar buttons</string>
 
@@ -279,9 +177,5 @@
 
     <!-- QS background opacity -->
     <string name="qs_panel_alpha_title">Quick settings panel background opacity</string>
-
-    <!-- Toast app icon -->
-    <string name="toast_icon_title">Toast app icon</string>
-    <string name="toast_icon_summary">Display the app\'s icon corresponding with the toast</string>
 
 </resources>

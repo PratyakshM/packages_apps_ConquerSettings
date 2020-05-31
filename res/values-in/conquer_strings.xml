@@ -63,9 +63,6 @@
     <string name="show_fourg_icon_title">Ikon 4G</string>
     <string name="show_fourg_icon_summary">Tampilakan ikon 4G sebagai LTE</string>
 
-    <!-- Statusbar Tuner -->
-    <string name="statusbar_items_title">Item bar status</string>
-
     <!-- Volume rocker wake -->
     <string name="volume_rocker_wake_title">Bangunkan dengan tombol volume</string>
     <string name="volume_rocker_wake_summary">Bangunkan perangkat dengan menekan tombol volume</string>
@@ -91,12 +88,8 @@
     <string name="developers_category">Pengembang</string>
     <string name="dev1">HeroBuxx (Alif Fathur)</string>
     <string name="dev1_summary">Pengembang utama, desainer UI/UX, device maintainer</string>
-    <string name="dev2">Chachinito (Chachi Desuasido)</string>
-    <string name="dev2_summary">Wakil pengembang utama, device maintainer</string>
-    <string name="dev3">vishalcj17 (Vishal Cj)</string>
-    <string name="dev3_summary">Manajer proyek, device maintainer</string>
-    <string name="dev4">Speedhorn (Manish Kandpal)</string>
-    <string name="dev4_summary">Manager proyek, device maintainer</string>
+    <string name="dev2">Pulkit Agarwal (pulkit077)</string>
+    <string name="dev2_summary">Pengembang utama, device maintainer</string>
     
 	<!-- Links -->
 	<string name="links_category">Link</string>
@@ -105,32 +98,12 @@
     <string name="website">Website</string>
     <string name="website_summary">Website proyek kami</string>	
     <string name="tg_chat">Telegram group chat</string>
-    <string name="tg_chat_summary">BErgabunglah dengan komunitas kami di Telegram!</string>
+    <string name="tg_chat_summary">Bergabunglah dengan komunitas kami di Telegram!</string>
     <string name="tg_channel">Telegram updates channel</string>
     <string name="tg_channel_summary">Ikuti semua pemabaruan melalui kanal Telegram kami!</string>
 	
-    <!-- Maintainers -->
-    <string name="mainatiner_category">Device maintainer</string>
-    <string name="mido_dev">Redmi Note 4/4X</string>
-    <string name="mido_dev_summary">HeroBuxx (Alif Fathur)</string>
-    <string name="rosy_dev">Redmi 5</string>
-    <string name="rosy_dev_summary">"Vishal Cj ; Manish Kandpal"</string>
-    <string name="lavender_dev">Redmi Note 7/7S</string>
-    <string name="lavender_dev_summary">Zugeng Owen</string>
-    <string name="ysl_dev">Redmi Y2/S2</string>
-    <string name="ysl_dev_summary">Thinker J</string>
-    <string name="platina_dev">Mi 8 Lite</string>
-    <string name="platina_dev_summary">alikunzZz</string>	
-
-    <!-- Contributors -->
-    <string name="contributors_category">Kontributor</string>
-    <string name="ali">alikunzZz</string>
-    <string name="ali_summary">Wallpaper designer</string>
-	<string name="salvatore">sasi2006165</string>
-    <string name="salvatore_summary">Wallpaper designer</string>
-	
     <!-- Wakeup options -->
-    <string name="wakeup_when_plugged_unplugged_title">BAngun saat pengisian daya</string>
+    <string name="wakeup_when_plugged_unplugged_title">Bangun saat pengisian daya</string>
     <string name="wakeup_when_plugged_unplugged_summary">Bangun saat perangkat terhubung atau teputus dengan pengisi daya</string>
 
     <!-- Charging animation -->
@@ -148,10 +121,6 @@
     <!-- Notifications while screen on -->
     <string name="notification_sound_vib_screen_on_title">Notifikasi yang khusus saat layar hidup</string>
     <string name="notification_sound_vib_screen_on_summary">Putar suaraa notifikasi dan getaran saat layar hidup</string>
-
-    <!-- Lock screen visualizer -->
-    <string name="lockscreen_visualizer_enable">Visualisasi musik</string>
-    <string name="lockscreen_visualizer_enable_summary">Tampilkan visualisasi bar di layar kunci</string>
 
     <!-- Statusbar Clock -->
     <string name="clock_style_category_title">Pengaturan jam</string>
@@ -187,47 +156,6 @@
     <string name="status_bar_clock_font_size_title">Ukuran font jam</string>
     <string name="status_bar_clock_color_title">Warna font jam</string>
 
-    <!-- Lock Clock Fonts -->
-    <string name="lock_clock_font_title">Opsi font jam</string>
-    <string name="lock_clock_font_summary">Ubah font wiget jam kunci layar</string>
-    <string name="lock_clock_font_dialog_title">Pilih font jam kunci layar</string>
-    <string name="lock_clock_font_stock">Normal (default)</string>
-    <string name="lock_clock_font_bold">Bold</string>
-    <string name="lock_clock_font_italic">Italic</string>
-    <string name="lock_clock_font_bold_italic">Bold Italic</string>
-    <string name="lock_clock_font_light_italic">Light Italic</string>
-    <string name="lock_clock_font_thin_italic">Thin Italic</string>
-    <string name="lock_clock_font_light">Light</string>
-    <string name="lock_clock_font_thin">Thin</string>
-    <string name="lock_clock_font_condensed_normal">Condensed</string>
-    <string name="lock_clock_font_condensed_italic">Condensed Italic</string>
-    <string name="lock_clock_font_condensed_bold">Condensed Bold</string>
-    <string name="lock_clock_font_condensed_bold_italic">Condensed Bold Italic</string>
-    <string name="lock_clock_font_condensed_light">Condensed Light</string>
-    <string name="lock_clock_font_condensed_light_italic">Condensed Light Italic</string>
-    <string name="lock_clock_font_medium_normal">Medium</string>
-    <string name="lock_clock_font_medium_italic">Medium Italic</string>
-    <string name="lock_clock_font_black">Black</string>
-    <string name="lock_clock_font_black_italic">Black Italic</string>
-    <string name="lock_clock_font_dancingscript">DancingScript</string>
-    <string name="lock_clock_font_dancingscript_bold">DancingScript Bold</string>
-    <string name="lock_clock_font_comingsoon">ComingSoon</string>
-    <string name="lock_clock_font_notoserif">NotoSerif Normal</string>
-    <string name="lock_clock_font_notoserif_italic">NotoSerif Italic</string>
-    <string name="lock_clock_font_notoserif_bold">NotoSerif Bold</string>
-    <string name="lock_clock_font_notoserif_bold_italic">NotoSerif Bold Italic</string>
-    <string name="lock_clock_font_gobold">GoBold Light</string>
-    <string name="lock_clock_font_roadrage">Road Rage</string>
-    <string name="lock_clock_font_snowstorm">Snowstorm</string>
-    <string name="lock_clock_font_googlesans">Google Sans</string>
-    <string name="lock_clock_font_neoneon">Neoneon</string>
-    <string name="lock_clock_font_themeable">Themeable (or VCR OSD Mono)</string>
-    <string name="lock_clock_font_samsung">Shamshung</string>
-    <string name="lock_clock_font_mexcellent">Mexcellent</string>
-    <string name="lock_clock_font_burnstown">Burnstown</string>
-    <string name="lock_clock_font_dumbledor">Dumbledor</string>
-    <string name="lock_clock_font_phantombold">PhantomBold</string>
-
     <string name="ambient_light_settings_title">Cahaya Ambient</string>
     <string name="pulse_ambient_light_title">Cahaya sisi layar</string>
     <string name="ambient_light_settings_summary">Kustomisasi cahaya sisi layar ambient</string>
@@ -237,7 +165,7 @@
     <string name="pulse_ambient_auto_color_summary">Sesuaikan warna cahaya sisi layar dengan warna dominasi pada wallapaper</string>
 
     <!-- Aggressive battery -->
-    <string name="aggressive_battery_title">BAterai agresif</string>
+    <string name="aggressive_battery_title">Baterai agresif</string>
     <string name="aggressive_idle_title">Aggressive Idle</string>
     <string name="aggressive_idle_summary">Enter device idle more frequently and wake up less</string>
     <string name="aggressive_standby_title">Aggressive Standby</string>
@@ -255,21 +183,6 @@
     <string name="three_finger_gesture">Usap 3 jari untuk menangkap layar</string>
     <string name="three_finger_gesture_summary">Usap layar dengan 3 jari untuk menangkap layar</string>
 
-    <!-- Lock Date Fonts -->
-    <string name="lock_date_font_title">Opsi font tanggal</string>
-    <string name="lock_date_font_summary">Ubah font pada tanggal</string>
-    <string name="lock_date_font_dialog_title">Pilih font tanggal</string>
-
-    <!-- Lock Clock & Date Size -->
-    <string name="lockdate_font_size_title">Ukuran font tanggal</string>
-    <string name="lockclock_font_size_title">Ukuran font jam</string>
-
-    <!-- LS OwnerInfo Font & Size -->
-    <string name="lock_ownerinfo_font_title">Opsi info pemilik</string>
-    <string name="lock_ownerinfo_font_summary">Ubah font info pemilik</string>
-    <string name="lock_ownerinfo_font_dialog_title">Pilih font info pemilik</string>
-    <string name="lockowner_font_size_title">Ukuran font info pemilik</string>
-
     <!-- Navbar tuner -->
     <string name="navbar_tuner_title">Tombol bar navigasi</string>
 
@@ -283,5 +196,9 @@
     <!-- Toast app icon -->
     <string name="toast_icon_title">Tampilkan ikon aplikasi pada toast</string>
     <string name="toast_icon_summary">Tampilkan ikon aplikasi pada setiap toast sistem berdasarkan aplikasi</string>
+
+    <!-- Statusbar Tuner -->
+    <string name="statusbar_items_title">Ikon Bar status</string>
+    <string name="statusbar_items_summary">Pengatiran ikon yang akan di tampilkan di Bar status</string>
 
 </resources>
