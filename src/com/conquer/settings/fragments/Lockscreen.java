@@ -17,9 +17,7 @@ package com.conquer.settings.fragments;
 
 import android.app.Activity;
 import android.content.Context;
-import android.content.ContentResolver;
 import android.content.Intent;
-import android.content.res.Resources;
 import android.os.Bundle;
 import androidx.preference.ListPreference;
 import androidx.preference.Preference;
@@ -33,25 +31,16 @@ import com.android.settings.SettingsPreferenceFragment;
 
 import com.conquer.settings.R;
 
-import com.conquer.settings.preferences.CustomSeekBarPreference;
-
-public class Lockscreen extends SettingsPreferenceFragment implements
-        Preference.OnPreferenceChangeListener {
+public class Lockscreen extends SettingsPreferenceFragment {
 
     public static final String TAG = "Lockscreen";
-
-    private static final String LOCK_CLOCK_FONT_STYLE = "lock_clock_font_style";
-    private static final String LOCK_DATE_FONTS = "lock_date_fonts";
-
-    private ListPreference mLockClockFonts;
-    private ListPreference mLockDateFonts;
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
 
         addPreferencesFromResource(R.xml.conquer_settings_lockscreen);
-}
+    }
 
     @Override
     public int getMetricsCategory() {
