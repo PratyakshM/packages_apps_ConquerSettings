@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- Copyright (C) 2019 The ConquerOS Project
+<!-- Copyright (C) 2020 The ConquerOS Project
 
      Licensed under the Apache License, Version 2.0 (the "License");
      you may not use this file except in compliance with the License.
@@ -19,9 +19,9 @@
 
     <!-- Categories -->
     <string name="misc_title">Miscellaneous</string>
-    <string name="misc_summary">See another customization options</string>
-    <string name="ui_title">Looks and feels</string>
-    <string name="ui_summary">Customize your device interfaces</string>
+    <string name="misc_summary">See other customization options</string>
+    <string name="ui_title">Looks and feel</string>
+    <string name="ui_summary">Customize your device interface</string>
     <string name="statusbar_title">Status Bar</string>
     <string name="statusbar_summary">Status bar customization options</string>
     <string name="lockscreen_title">Lockscreen</string>
@@ -39,7 +39,7 @@
 
     <!-- Color Picker -->
     <string name="dialog_color_picker">Color Picker</string>
-    <string name="press_color_to_apply">Press on color below to apply</string>
+    <string name="press_color_to_apply">Tap the color below to apply</string>
     <string name="arrow_right">→</string>
     <string name="arrow_down">↓</string>
     <string name="hex">Hex:</string>
@@ -50,11 +50,11 @@
     <!-- 4G icon -->
     <string name="statusbar_items_category">Icons</string>
     <string name="show_fourg_icon_title">4G icon</string>
-    <string name="show_fourg_icon_summary">Display 4G icon in signal icon instead LTE</string>
+    <string name="show_fourg_icon_summary">Display 4G icon on status bar instead of LTE</string>
 
     <!-- Volume rocker wake -->
-    <string name="volume_rocker_wake_title">Volume rocker wake</string>
-    <string name="volume_rocker_wake_summary">Pressing the volume keys will wake your device</string>
+    <string name="volume_rocker_wake_title">Wake with volume rocker</string>
+    <string name="volume_rocker_wake_summary">Pressing the volume keys will wake your device up</string>
 
     <!-- Volume rocker music control -->
     <string name="volume_rocker_music_controls_title">Playback control</string>
@@ -69,26 +69,29 @@
     <!-- ROM Info -->
     <string name="rom_info_title">About ConquerOS</string>
     <string name="rom_info_summary">Know more about us!</string>
-    <string name="rom_summary">ConquerOS is a simple CAF based custom ROM with optimized system and extra features included.</string>
+    <string name="rom_summary">ConquerOS is a CAF based custom ROM with optimized system and extra features included.</string>
     <string name="developers_category">Developers</string>
     <string name="dev1">HeroBuxx (Alif Fathur)</string>
     <string name="dev1_summary">Lead developer, source mainatiner. UI/UX developer, device maintainer</string>
-    <string name="dev2">Pulkit Agarwal (pulkit077)</string>
+    <string name="dev2">Pulkit Agarwal (Pulkit077)</string>
     <string name="dev2_summary">Lead developer, source mainatiner. project manager, device maintainer</string>
+    <string name="dev3">Pratyaksh Mehrotra (PratyakshM)</string>
+    <string name="dev3_summary">Group moderator, source maintainer</string>
+   
     
 	<!-- Links -->
-	<string name="links_category">Links</string>
+	  <string name="links_category">Links</string>
     <string name="github">GitHub</string>
-    <string name="github_summary">See our source code.</string>
+    <string name="github_summary">Take a look at our source code.</string>
     <string name="website">Website</string>
     <string name="website_summary">Our project website.</string>	
-    <string name="tg_chat">Telegram group chat</string>
+    <string name="tg_chat">Telegram group</string>
     <string name="tg_chat_summary">Join our community on Telegram!</string>
     <string name="tg_channel">Telegram updates channel</string>
-    <string name="tg_channel_summary">Get notified when new updates are come!</string>
+    <string name="tg_channel_summary">Get notified when new updates arrive!</string>
 	
     <!-- Wakeup options -->
-    <string name="wakeup_when_plugged_unplugged_title">Wake up on charge</string>
+    <string name="wakeup_when_plugged_unplugged_title">Wake on plug</string>
     <string name="wakeup_when_plugged_unplugged_summary">Wake up device if charger is plugged/unplugged.</string>
 
     <!-- Charging animation -->
